@@ -1,0 +1,78 @@
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    height: 450px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 490px;
+    width: 150px;
+    background: lightgrey;
+}
+
+.block {
+    width: 150px;
+    height: calc(450px/3);
+    box-shadow: 6px 6px 8px 3px rgba(0,0,0,0.66);
+    background: lightgrey;
+    margin: 0 15px 20px 0;
+}
+
+.collumn {
+    text-align: center;
+    line-height: 120px;
+    font-size: 150px;
+
+}
+
+.players {
+    padding-top: 30px;
+}
+
+#who_won {
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.play_again {
+    padding-bottom: 50px;
+    backgroundr: lightgrey;
+}
+
+.play_again > input {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#player_card1 {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    /*background-color: red;//////*/
+}
+
+#player_card2 {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    /*background-color: red;//////*/
+}
+
+#turns_value {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
